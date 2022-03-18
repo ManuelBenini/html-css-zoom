@@ -77,6 +77,36 @@
     margin-right: 10px;
   }
 
+  /* DROPBOX */
+    #dropdown{
+      position: relative;
+    }
+
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      bottom: 40px;
+      left: -66px;
+      background-color: gray;
+      padding: 12px 0 12px 0;
+      z-index: 500;
+      width: 150px;
+      text-align: center;
+    }
+
+    footer nav ul li#dropdown ul li{
+      width: 100%;
+    }
+    
+    footer nav ul li#dropdown:hover ul{
+      display: inline-block;
+    }
+
+    footer nav ul li#dropdown ul li:hover{
+      background-color: #ebebeb;
+    }
+  /* /DROPBOX */
+
   footer nav ul li:active .fa-solid{
     color: green;
   }
