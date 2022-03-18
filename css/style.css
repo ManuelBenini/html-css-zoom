@@ -1,0 +1,98 @@
+/* HEADER */
+
+  .speaker, .full-screen{
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    margin-right: 5px;
+  }
+
+  .speaker span{
+    align-self: center;
+    padding-left: 2px;
+  }
+
+  header .fa-solid{
+    font-size: 15px;
+  }
+
+/* /HEADER */
+
+
+
+
+
+
+/* MAIN */
+
+  .image{
+    position: relative;
+    width: 250px;
+    padding: 2px;
+  }
+
+  .user-mute{
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    padding: 5px;
+    background-color: rgba(110, 111, 123, 0.5);
+  }
+
+  img{
+    width: 100%;
+  }
+
+/* /MAIN */
+
+
+
+
+
+/* FOOTER */
+
+  .box{
+    padding: 4px
+  }
+
+  .utilis-left div:nth-child(1n){
+    margin-right: 10px;
+  }
+
+  footer .fa-solid, .fa-brands{
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+
+  .chevron{
+    align-self: center;
+  }
+
+  .fa-solid.fa-chevron-up{
+    font-size: 7px;
+  }
+
+  footer nav ul li{
+    padding: 4px;
+    margin-right: 10px;
+  }
+
+  footer nav ul li:active .fa-solid{
+    color: green;
+  }
+
+  footer nav ul li:active .fa-brands{
+    color: green;
+  }
+
+  .meeting-end{
+    min-width: 91px;
+    background-color: #4a4a4a;
+    padding: 0 15px;
+    line-height: 50px;
+  }
+
+  .meeting-end a{
+    color: #fb031a;
+  }
+/* /FOOTER */
